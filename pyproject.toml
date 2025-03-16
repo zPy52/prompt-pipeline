@@ -8,7 +8,7 @@ version = "0.1.0"
 description = "A Python package to simplify type-safe LLM prompts chaining"
 readme = "README.md"
 authors = [
-    { name = "Antonio Peña Peña", email = "" }
+    { name = "Antonio Peña Peña", email = "antoniopenapena52@gmail.com" }
 ]
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
