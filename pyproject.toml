@@ -34,4 +34,4 @@ Repository = "https://github.com/zPy52/prompt-pipeline"
 Issues = "https://github.com/zPy52/prompt-pipeline/issues"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src"] 
+packages = ["src/prompt_pipeline"] 
