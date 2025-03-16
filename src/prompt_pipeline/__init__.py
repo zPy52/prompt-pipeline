@@ -7,7 +7,7 @@ from .decorators import prompt
 from .pipeline import PromptPipeline
 from .types import PromptConfig, PromptContext, PipelineResponse
 
-__version__ = "1.0.0"
+__version__ = "0.1.1"
 __all__ = [
   "PromptPipeline",
   "Prompt",
