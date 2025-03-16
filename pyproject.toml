@@ -1,0 +1,37 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "prompt-pipeline"
+version = "0.1.0"
+description = "A Python package to simplify type-safe LLM prompts chaining"
+readme = "README.md"
+authors = [
+    { name = "Antonio Peña Peña", email = "" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+dependencies = [
+    "openai>=1.66.3",
+    "pydantic>=2.10.6",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+Homepage = "https://github.com/zPy52/prompt-pipeline"
+Repository = "https://github.com/zPy52/prompt-pipeline"
+Issues = "https://github.com/zPy52/prompt-pipeline/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"] 
